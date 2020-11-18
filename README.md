@@ -41,5 +41,6 @@ if exists(secondWord, "alias")==0 then
   echo("Alias >>>"..secondWord.."<<< not found - creating  - Note: the new alias will be executed if creation is successful!")
   local myParameter = "send (\""..myCmdWithoutSecondWord.."\")"
   permAlias(secondWord,"",secondWord,myParameter)
-end```
+end
+```
 ![XZibit](/YoDawg.jpg)
