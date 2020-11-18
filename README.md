@@ -9,10 +9,10 @@ An alias for the [Mudlet](https://www.mudlet.org/) MUD client, written in LUA th
 * Does not do anything if alias already exists - because Mudlet permAlias() function creates duplicates by design, and there is no deleteAlias() function (?)
 
 # Installation
-See alias.txt file or below
+See [alias.txt](/alias.txt) file or below
 ![Screenshot](/image.png)
 
-`-- Create a new alias in Mudlet
+```-- Create a new alias in Mudlet
 -- Name = alias
 -- Pattern = ^alias
 -- Command =[blank]
@@ -39,7 +39,4 @@ if exists(secondWord, "alias")==0 then
   echo("Alias >>>"..secondWord.."<<< not found - creating  - Note: the new alias will be executed if creation is successful!")
   local myParameter = "send (\""..myCmdWithoutSecondWord.."\")"
   permAlias(secondWord,"",secondWord,myParameter)
-end`
-
-
-
+end```
