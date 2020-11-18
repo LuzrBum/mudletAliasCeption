@@ -6,7 +6,7 @@ An alias for the [Mudlet](https://www.mudlet.org/) MUD client, written in LUA th
   
 # Bugs/Weaknesses
 * Does not support parameters: `myNewAliasName MoreTextHere` will strip away MoreTextHere
-* Does not do anything if alias already exists - because Mudlet permAlias() function creates duplicates by design, and there is no deleteAlias() function (?)
+* Does not do anything if alias already exists (except warn the user) - because Mudlet permAlias() function creates duplicates by design, and there is no deleteAlias() function (?)
 
 # Installation
 See [alias.txt](/alias.txt) file or below
