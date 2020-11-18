@@ -1,5 +1,5 @@
 # mudletAliasCeption
-An alias for the [Mudlet](https://www.mudlet.org/) MUD client, written in LUA that allows creating a new alias by typing only (without having to click into the Mudlet "Alias" editor)
+A [LUA](https://www.lua.org/) alias for the [Mudlet](https://www.mudlet.org/) [MUD](https://en.wikipedia.org/wiki/MUD) client that creates a new alias directly from the Mudlet text command line (without having to click into the Mudlet "Alias" editor).
 
 # Syntax
 `alias <myNewAliasName> <the string to send to the MUD when user types myNewAliasName>`
