@@ -12,7 +12,9 @@ An alias for the [Mudlet](https://www.mudlet.org/) MUD client, written in LUA th
 See [alias.txt](/alias.txt) file or below
 ![Screenshot](/image.png)
 
-```-- Create a new alias in Mudlet
+```
+-- HOW TO INSTALL IN MUDLET:
+-- Create a new alias in Mudlet
 -- Name = alias
 -- Pattern = ^alias
 -- Command =[blank]
