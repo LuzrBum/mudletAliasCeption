@@ -42,3 +42,4 @@ if exists(secondWord, "alias")==0 then
   local myParameter = "send (\""..myCmdWithoutSecondWord.."\")"
   permAlias(secondWord,"",secondWord,myParameter)
 end```
+![XZibit](/YoDawg.jpg)
