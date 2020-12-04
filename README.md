@@ -3,6 +3,7 @@ A [LUA](https://www.lua.org/) alias for the [Mudlet](https://www.mudlet.org/) [M
 
 # Syntax
 `alias <myNewAliasName> <the string to send to the MUD when user types myNewAliasName>`
+Use singlequotes in your string, double quotes will not work
   
 # Bugs/Weaknesses
 * Does not support parameters: `myNewAliasName MoreTextHere` will strip away MoreTextHere
