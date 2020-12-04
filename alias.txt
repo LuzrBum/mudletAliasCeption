@@ -23,7 +23,7 @@ if exists(secondWord, "alias")>0 then
 end
 
 if exists(secondWord, "alias")==0 then
-  echo("Alias >>>"..secondWord.."<<< not found - creating  - Note: the new alias will be executed if creation is successful!")
+  echo("Alias >>>"..secondWord.."<<< not found - creating!!!")
   local myParameter = "send (\""..myCmdWithoutSecondWord.."\")"
-  permAlias(secondWord,"",secondWord,myParameter)
+  permAlias(secondWord,"","^"..secondWord,myParameter)
 end
