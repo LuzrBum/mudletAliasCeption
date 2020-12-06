@@ -7,6 +7,7 @@ A [LUA](https://www.lua.org/) alias for the [Mudlet](https://www.mudlet.org/) [M
 Use singlequotes in your string, double quotes will not work
   
 # Bugs/Weaknesses
+* Currently matches anytime text is on the newline, so "yo" will trigger on "yo" and "yo2" - not desired
 * Does not support parameters: `myNewAliasName MoreTextHere` will strip away MoreTextHere
 * Does not do anything if alias already exists (except warn the user) - because Mudlet permAlias() function creates duplicates by design, and there is no deleteAlias() function (?)
 
